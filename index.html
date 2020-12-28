@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="page-header">
+            <h1>x-editable</h1>
+        </div>
+        <ul class="list-group">
+            <li class="list-group-item"><strong>firstName;</strong><span editable="text">John</span></li>
+            <li class="list-group-item"><strong>LastName;</strong><span editable="text">Doe</span></li>
+            <li class="list-group-item"><strong>Age;</strong><span editable="number"></span></li>
+            <li class="list-group-item"><strong>Email;</strong><a editable="email" href="">smoke@gmail.com</a></li>
+            <li class="list-group-item"><strong>password;</strong><span editable="password">John222</span></li>
+          </ul>
+          <table class="table">
+            <thead>
+                <tr>
+                    <th>firstName</th>
+                    <th>LastName</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Harry</td>
+                    <td>Potter</td>
+                </tr>
+            </tbody>
+          </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
